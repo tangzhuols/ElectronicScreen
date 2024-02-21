@@ -1,0 +1,9 @@
+server:
+  port: 3002
+  tomcat:
+    uri-encoding: utf-8
+  multipart:
+    enabled: true
+    file-size-threshold: 0
+    maxFileSize: 100MB
+    maxRequestSize: 100MB
